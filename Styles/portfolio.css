@@ -245,6 +245,7 @@ textarea {
     margin-bottom: 25px;
     padding: 18px 35px;
     color: var(--Dark-03, #757575);
+    font-family: 'Open Sans';
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
@@ -255,8 +256,17 @@ textarea {
     width: 100%;
 }
 
-footer
-.section-title,
+footer form textarea::placeholder {
+    color: var(--Dark-03, #757575);
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+}
+
+footer .section-title,
 .section-description {
     text-align: left;
 }
